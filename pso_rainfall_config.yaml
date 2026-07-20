@@ -1,0 +1,152 @@
+project:
+  name: Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System
+  optimization_method: Particle Swarm Optimization
+  created_at: '2026-07-21T04:17:36.306759'
+dataset:
+  path: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized Rainfall
+    Prediction System\rainfall_0.csv
+  rows: 62
+  columns: 45
+  training_rows: 49
+  testing_rows: 13
+  target_column: 11-Sep
+features:
+  categorical_columns:
+  - District
+  - Taluka
+  - Circle
+  rainfall_columns:
+  - 01-Aug
+  - 02-Aug
+  - 03-Aug
+  - 04-Aug
+  - 05-Aug
+  - 06-Aug
+  - 07-Aug
+  - 08-Aug
+  - 09-Aug
+  - 10-Aug
+  - 11-Aug
+  - 12-Aug
+  - 13-Aug
+  - 14-Aug
+  - 15-Aug
+  - 16-Aug
+  - 17-Aug
+  - 18-Aug
+  - 19-Aug
+  - 20-Aug
+  - 21-Aug
+  - 22-Aug
+  - 23-Aug
+  - 24-Aug
+  - 25-Aug
+  - 26-Aug
+  - 27-Aug
+  - 28-Aug
+  - 29-Aug
+  - 30-Aug
+  - 31-Aug
+  - 01-Sep
+  - 02-Sep
+  - 03-Sep
+  - 04-Sep
+  - 05-Sep
+  - 06-Sep
+  - 07-Sep
+  - 08-Sep
+  - 09-Sep
+  - 10-Sep
+  processed_feature_count: 97
+pso_settings:
+  number_of_particles: 6
+  iterations: 5
+  inertia_weight: 0.72
+  cognitive_coefficient: 1.49
+  social_coefficient: 1.49
+  maximum_velocity: 0.25
+  memory_safe_n_jobs: 1
+best_pso_parameters:
+  n_estimators: 150
+  max_depth: 6
+  min_samples_split: 3
+  min_samples_leaf: 2
+  max_features: 0.5
+  bootstrap: false
+best_pso_position:
+- 0.27845071710070984
+- 0.3661761457749352
+- 0.17108278082107517
+- 0.2080725777960455
+- 0.5205844942958024
+- 0.5251761570807488
+best_cross_validation_rmse: 2.648267558657913
+pso_test_metrics: &id001
+  MAE: 1.106440226265998
+  MSE: 1.8115358037317635
+  RMSE: 1.345933060642974
+  R2_Score: 0.5575873542909422
+all_model_metrics:
+  PSO Random Forest: *id001
+  Linear Regression:
+    MAE: 3.8149670087374172
+    MSE: 44.89460888235695
+    RMSE: 6.700343937616706
+    R2_Score: -9.964145810864629
+  Standard Random Forest:
+    MAE: 1.2999594097512561
+    MSE: 1.925642623314664
+    RMSE: 1.3876752585942664
+    R2_Score: 0.5297202263870258
+  Gradient Boosting:
+    MAE: 1.2800436041906944
+    MSE: 2.888521588300009
+    RMSE: 1.6995651174050406
+    R2_Score: 0.29456625950476656
+  Extra Trees:
+    MAE: 1.2771044527943511
+    MSE: 2.011426962391791
+    RMSE: 1.4182478494225863
+    R2_Score: 0.5087700048494037
+  ANN:
+    MAE: 3.6695000575138974
+    MSE: 19.197092798502688
+    RMSE: 4.381448710016207
+    R2_Score: -3.688307345299066
+saved_files:
+  h5: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized Rainfall
+    Prediction System\pso_rainfall_ann_model.h5
+  pkl: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized Rainfall
+    Prediction System\pso_rainfall_model.pkl
+  preprocessor: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_rainfall_preprocessor.pkl
+  yaml: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized Rainfall
+    Prediction System\pso_rainfall_config.yaml
+  json: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized Rainfall
+    Prediction System\pso_rainfall_results.json
+  result_csv: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_result.csv
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_prediction.csv
+  optimization_csv: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_optimization_history.csv
+  comparison_csv: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_model_comparison.csv
+  importance_csv: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_feature_importance.csv
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_accuracy_graph.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_comparison_graph.png
+  heatmap: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_heatmap.png
+  result_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and Localized
+    Rainfall Prediction System\pso_result_graph.png
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_prediction_graph.png
+  optimization_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_optimization_graph.png
+  ann_history_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_ann_training_history.png
+  importance_graph: C:\Users\NXTWAVE\Downloads\Smart Rainfall Pattern Analysis and
+    Localized Rainfall Prediction System\pso_feature_importance.png

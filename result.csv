@@ -1,0 +1,14 @@
+District,Taluka,Circle,Actual_Rainfall,Linear_Regression_Prediction,Random_Forest_Prediction,Gradient_Boosting_Prediction,Extra_Trees_Prediction,ANN_Prediction,Best_Model,Best_Model_Prediction,Absolute_Error,Squared_Error
+Parbhani,Sonpeth,Sonpeth,15.0,17.8062,13.6512,12.9472,13.9994,13.5548,Random Forest,13.6512,1.3488,1.8193
+Parbhani,Manvat,Kekarjawala,16.0,17.9109,15.2664,15.4715,15.2239,12.3363,Random Forest,15.2664,0.7336,0.5382
+Parbhani,Parbhani,Parbhani,17.0,14.5612,14.8826,15.6646,14.36,10.13,Random Forest,14.8826,2.1174,4.4835
+Parbhani,Manvat,Kolha,16.0,16.5489,15.4791,15.374,15.5106,15.0632,Random Forest,15.4791,0.5209,0.2714
+Parbhani,Parbhani,Daithana,13.0,13.7115,14.2229,13.6131,14.4993,9.3674,Random Forest,14.2229,1.2229,1.4956
+Parbhani,Selu,Moregaon,16.0,14.9637,14.7682,14.6698,14.8088,11.8663,Random Forest,14.7682,1.2318,1.5173
+Parbhani,Pathari,Pathri,16.0,22.9915,14.9395,16.1014,14.5566,11.6409,Random Forest,14.9395,1.0605,1.1246
+Parbhani,Gangakhed,Makhani,12.0,8.9772,12.7646,13.2037,12.2481,8.2833,Random Forest,12.7646,0.7646,0.5846
+Parbhani,Jintur,Adgaon,20.0,41.9547,18.2195,19.7656,18.3604,26.4186,Random Forest,18.2195,1.7805,3.17
+Parbhani,Manvat,Rampuri,16.0,15.7877,14.1328,13.8192,14.5285,7.2543,Random Forest,14.1328,1.8672,3.4863
+Parbhani,Purna,Purna,17.0,20.9915,15.784,16.9462,16.2319,17.7371,Random Forest,15.784,1.216,1.4786
+Parbhani,Parbhani,Parabhani,14.0,15.5425,16.2003,15.9894,15.7528,12.5667,Random Forest,16.2003,2.2003,4.8411
+Parbhani,Selu,Chikalthana,13.0,15.4267,14.1315,8.7145,14.8456,11.3889,Random Forest,14.1315,1.1315,1.2804

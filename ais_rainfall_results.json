@@ -1,0 +1,103 @@
+{
+    "project_name": "Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System",
+    "optimization_method": "Artificial Immune System Clonal Selection Algorithm",
+    "created_at": "2026-07-21T04:03:49.333640",
+    "dataset_information": {
+        "dataset_path": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_0.csv",
+        "number_of_rows": 62,
+        "number_of_columns": 45,
+        "training_records": 49,
+        "testing_records": 13,
+        "target_column": "11-Sep"
+    },
+    "ais_configuration": {
+        "population_size": 6,
+        "generations": 5,
+        "selected_antibodies": 3,
+        "clones_per_antibody": 2,
+        "random_replacements": 2
+    },
+    "best_ais_parameters": {
+        "n_estimators": 500,
+        "max_depth": 10,
+        "min_samples_split": 3,
+        "min_samples_leaf": 1,
+        "max_features": 0.5,
+        "bootstrap": false
+    },
+    "best_cross_validation_rmse": 2.7038757423970847,
+    "ais_test_metrics": {
+        "MAE": 1.021809908780817,
+        "MSE": 1.9041201719848184,
+        "RMSE": 1.379898609313314,
+        "R2_Score": 0.5349764319863666
+    },
+    "all_model_results": {
+        "AIS Random Forest": {
+            "MAE": 1.021809908780817,
+            "MSE": 1.9041201719848184,
+            "RMSE": 1.379898609313314,
+            "R2_Score": 0.5349764319863666
+        },
+        "Linear Regression": {
+            "MAE": 3.8149670087374172,
+            "MSE": 44.89460888235695,
+            "RMSE": 6.700343937616706,
+            "R2_Score": -9.964145810864629
+        },
+        "Gradient Boosting": {
+            "MAE": 1.2719220495498031,
+            "MSE": 2.8776955754272775,
+            "RMSE": 1.696377191377931,
+            "R2_Score": 0.2972101846138585
+        },
+        "Extra Trees": {
+            "MAE": 1.2892289173067166,
+            "MSE": 2.0293268859209914,
+            "RMSE": 1.4245444485592549,
+            "R2_Score": 0.5043984917331683
+        },
+        "Standard Random Forest": {
+            "MAE": 1.2908379696583958,
+            "MSE": 1.8988394791245815,
+            "RMSE": 1.3779838457415172,
+            "R2_Score": 0.5362660809652395
+        },
+        "ANN": {
+            "MAE": 2.4194853122417745,
+            "MSE": 11.242004341370794,
+            "RMSE": 3.3529098319774118,
+            "R2_Score": -1.7455184012885323
+        }
+    },
+    "target_statistics": {
+        "minimum": 0.3,
+        "maximum": 22.0,
+        "mean": 14.79516129032258,
+        "median": 15.0,
+        "standard_deviation": 3.1919174266896166
+    },
+    "ann_training": {
+        "epochs_completed": 129,
+        "final_training_loss": 4.104257583618164,
+        "final_validation_loss": 20.243572235107422
+    },
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_rainfall_ann_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_rainfall_model.pkl",
+        "preprocessor": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_rainfall_preprocessor.pkl",
+        "yaml_configuration": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_rainfall_config.yaml",
+        "json_results": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_rainfall_results.json",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_prediction.csv",
+        "optimization_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_optimization_history.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_prediction_graph.png",
+        "optimization_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_optimization_graph.png",
+        "ann_history_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_ann_training_history.png",
+        "feature_importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ais_feature_importance.png"
+    }
+}

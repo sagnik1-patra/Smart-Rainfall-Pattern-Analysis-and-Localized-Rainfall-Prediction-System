@@ -1,0 +1,80 @@
+{
+    "project_name": "Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System",
+    "created_at": "2026-07-21T03:49:00.737420",
+    "dataset_information": {
+        "dataset_path": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_0.csv",
+        "number_of_rows": 62,
+        "number_of_columns": 45,
+        "training_records": 49,
+        "testing_records": 13,
+        "target_column": "11-Sep"
+    },
+    "model_results": {
+        "Linear Regression": {
+            "MAE": 3.8149670087374172,
+            "MSE": 44.89460888235695,
+            "RMSE": 6.700343937616706,
+            "R2_Score": -9.964145810864629
+        },
+        "Random Forest": {
+            "MAE": 1.322771326027258,
+            "MSE": 2.0070013113753555,
+            "RMSE": 1.4166867372059906,
+            "R2_Score": 0.5098508358057297
+        },
+        "Gradient Boosting": {
+            "MAE": 1.2719220495498031,
+            "MSE": 2.8776955754272775,
+            "RMSE": 1.696377191377931,
+            "R2_Score": 0.2972101846138585
+        },
+        "Extra Trees": {
+            "MAE": 1.289663560340085,
+            "MSE": 2.0420521988131863,
+            "RMSE": 1.4290039184037202,
+            "R2_Score": 0.5012907202320398
+        },
+        "ANN": {
+            "MAE": 3.6695000575138974,
+            "MSE": 19.197092798502688,
+            "RMSE": 4.381448710016207,
+            "R2_Score": -3.688307345299066
+        }
+    },
+    "best_model": {
+        "name": "Random Forest",
+        "metrics": {
+            "MAE": 1.322771326027258,
+            "MSE": 2.0070013113753555,
+            "RMSE": 1.4166867372059906,
+            "R2_Score": 0.5098508358057297
+        }
+    },
+    "target_statistics": {
+        "minimum": 0.3,
+        "maximum": 22.0,
+        "mean": 14.79516129032258,
+        "median": 15.0,
+        "standard_deviation": 3.1919174266896166
+    },
+    "ann_training": {
+        "epochs_completed": 99,
+        "final_training_loss": 5.694697856903076,
+        "final_validation_loss": 60.83158493041992
+    },
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_ann_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_ml_model.pkl",
+        "preprocessor": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_preprocessor.pkl",
+        "yaml_configuration": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_config.yaml",
+        "json_results": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_results.json",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\prediction.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\prediction_graph.png",
+        "ann_history_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\ann_training_history.png"
+    }
+}

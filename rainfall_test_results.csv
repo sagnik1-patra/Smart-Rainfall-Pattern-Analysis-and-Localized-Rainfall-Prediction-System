@@ -1,0 +1,14 @@
+District,Taluka,Circle,Actual_Rainfall_11_Sep,Random_Forest_Prediction,ANN_Prediction,RF_Absolute_Error,ANN_Absolute_Error
+Parbhani,Sonpeth,Sonpeth,15.0,13.6512,13.5548,1.3488,1.4452
+Parbhani,Manvat,Kekarjawala,16.0,15.2664,12.3363,0.7336,3.6637
+Parbhani,Parbhani,Parbhani,17.0,14.8826,10.13,2.1174,6.87
+Parbhani,Manvat,Kolha,16.0,15.4791,15.0632,0.5209,0.9368
+Parbhani,Parbhani,Daithana,13.0,14.2229,9.3674,1.2229,3.6326
+Parbhani,Selu,Moregaon,16.0,14.7682,11.8663,1.2318,4.1337
+Parbhani,Pathari,Pathri,16.0,14.9395,11.6409,1.0605,4.3591
+Parbhani,Gangakhed,Makhani,12.0,12.7646,8.2833,0.7646,3.7167
+Parbhani,Jintur,Adgaon,20.0,18.2195,26.4186,1.7805,6.4186
+Parbhani,Manvat,Rampuri,16.0,14.1328,7.2543,1.8672,8.7457
+Parbhani,Purna,Purna,17.0,15.784,17.7371,1.216,0.7371
+Parbhani,Parbhani,Parabhani,14.0,16.2003,12.5667,2.2003,1.4333
+Parbhani,Selu,Chikalthana,13.0,14.1315,11.3889,1.1315,1.6111

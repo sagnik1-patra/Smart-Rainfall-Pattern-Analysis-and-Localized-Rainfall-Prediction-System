@@ -1,0 +1,14 @@
+District,Taluka,Circle,Actual_Rainfall_11_Sep,AIS_Predicted_Rainfall_11_Sep,Absolute_Error,Squared_Error,Prediction_Difference,Model
+Parbhani,Sonpeth,Sonpeth,15.0,11.6238,3.3762,11.3987,-3.3762,AIS Random Forest
+Parbhani,Manvat,Kekarjawala,16.0,15.9543,0.0457,0.0021,-0.0457,AIS Random Forest
+Parbhani,Parbhani,Parbhani,17.0,15.9553,1.0447,1.0913,-1.0447,AIS Random Forest
+Parbhani,Manvat,Kolha,16.0,15.7044,0.2956,0.0874,-0.2956,AIS Random Forest
+Parbhani,Parbhani,Daithana,13.0,13.6977,0.6977,0.4867,0.6977,AIS Random Forest
+Parbhani,Selu,Moregaon,16.0,14.28,1.72,2.9583,-1.72,AIS Random Forest
+Parbhani,Pathari,Pathri,16.0,16.321,0.321,0.1031,0.321,AIS Random Forest
+Parbhani,Gangakhed,Makhani,12.0,12.3544,0.3544,0.1256,0.3544,AIS Random Forest
+Parbhani,Jintur,Adgaon,20.0,19.941,0.059,0.0035,-0.059,AIS Random Forest
+Parbhani,Manvat,Rampuri,16.0,14.4831,1.5169,2.3011,-1.5169,AIS Random Forest
+Parbhani,Purna,Purna,17.0,15.9646,1.0354,1.0721,-1.0354,AIS Random Forest
+Parbhani,Parbhani,Parabhani,14.0,16.1687,2.1687,4.7035,2.1687,AIS Random Forest
+Parbhani,Selu,Chikalthana,13.0,12.3518,0.6482,0.4202,-0.6482,AIS Random Forest

@@ -1,0 +1,166 @@
+{
+    "project": {
+        "name": "Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System",
+        "optimization_method": "Crow Search Algorithm",
+        "created_at": "2026-07-21T04:15:09.718918"
+    },
+    "dataset": {
+        "path": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\rainfall_0.csv",
+        "rows": 62,
+        "columns": 45,
+        "training_rows": 49,
+        "testing_rows": 13,
+        "target_column": "11-Sep"
+    },
+    "features": {
+        "categorical_columns": [
+            "District",
+            "Taluka",
+            "Circle"
+        ],
+        "rainfall_columns": [
+            "01-Aug",
+            "02-Aug",
+            "03-Aug",
+            "04-Aug",
+            "05-Aug",
+            "06-Aug",
+            "07-Aug",
+            "08-Aug",
+            "09-Aug",
+            "10-Aug",
+            "11-Aug",
+            "12-Aug",
+            "13-Aug",
+            "14-Aug",
+            "15-Aug",
+            "16-Aug",
+            "17-Aug",
+            "18-Aug",
+            "19-Aug",
+            "20-Aug",
+            "21-Aug",
+            "22-Aug",
+            "23-Aug",
+            "24-Aug",
+            "25-Aug",
+            "26-Aug",
+            "27-Aug",
+            "28-Aug",
+            "29-Aug",
+            "30-Aug",
+            "31-Aug",
+            "01-Sep",
+            "02-Sep",
+            "03-Sep",
+            "04-Sep",
+            "05-Sep",
+            "06-Sep",
+            "07-Sep",
+            "08-Sep",
+            "09-Sep",
+            "10-Sep"
+        ],
+        "processed_feature_count": 97
+    },
+    "csa_settings": {
+        "number_of_crows": 6,
+        "iterations": 5,
+        "awareness_probability": 0.2,
+        "flight_length": 2.0,
+        "memory_safe_n_jobs": 1
+    },
+    "best_csa_parameters": {
+        "n_estimators": 150,
+        "max_depth": 20,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "bootstrap": true
+    },
+    "best_csa_position": [
+        0.15238550979389798,
+        1.0,
+        0.005696717997091823,
+        0.0,
+        0.150166966508118,
+        0.2873148615598298
+    ],
+    "best_cross_validation_rmse": 2.696477220501999,
+    "csa_test_metrics": {
+        "MAE": 1.308461538369839,
+        "MSE": 1.9372941193756932,
+        "RMSE": 1.3918671342393616,
+        "R2_Score": 0.5268747020599824
+    },
+    "all_model_metrics": {
+        "CSA Random Forest": {
+            "MAE": 1.308461538369839,
+            "MSE": 1.9372941193756932,
+            "RMSE": 1.3918671342393616,
+            "R2_Score": 0.5268747020599824
+        },
+        "Linear Regression": {
+            "MAE": 3.8149670087374172,
+            "MSE": 44.89460888235695,
+            "RMSE": 6.700343937616706,
+            "R2_Score": -9.964145810864629
+        },
+        "Standard Random Forest": {
+            "MAE": 1.2999594097512561,
+            "MSE": 1.925642623314664,
+            "RMSE": 1.3876752585942664,
+            "R2_Score": 0.5297202263870258
+        },
+        "Gradient Boosting": {
+            "MAE": 1.2800436041906944,
+            "MSE": 2.888521588300009,
+            "RMSE": 1.6995651174050406,
+            "R2_Score": 0.29456625950476656
+        },
+        "Extra Trees": {
+            "MAE": 1.2771044527943511,
+            "MSE": 2.011426962391791,
+            "RMSE": 1.4182478494225863,
+            "R2_Score": 0.5087700048494037
+        },
+        "ANN": {
+            "MAE": 3.457914499136118,
+            "MSE": 19.650797155589597,
+            "RMSE": 4.432921965880924,
+            "R2_Score": -3.799110866032719
+        }
+    },
+    "saved_files": {
+        "h5": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_rainfall_ann_model.h5",
+        "pkl": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_rainfall_model.pkl",
+        "preprocessor": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_rainfall_preprocessor.pkl",
+        "yaml": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_rainfall_config.yaml",
+        "json": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_rainfall_results.json",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_prediction.csv",
+        "optimization_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_optimization_history.csv",
+        "comparison_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_model_comparison.csv",
+        "importance_csv": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_feature_importance.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_prediction_graph.png",
+        "optimization_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_optimization_graph.png",
+        "ann_history_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_ann_training_history.png",
+        "importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Smart Rainfall Pattern Analysis and Localized Rainfall Prediction System\\csa_feature_importance.png"
+    },
+    "target_statistics": {
+        "minimum": 0.3,
+        "maximum": 22.0,
+        "mean": 14.79516129032258,
+        "median": 15.0,
+        "standard_deviation": 3.1919174266896166
+    },
+    "ann_training": {
+        "epochs_completed": 107,
+        "final_training_loss": 4.630586624145508,
+        "final_validation_loss": 30.349990844726562
+    }
+}

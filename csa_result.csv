@@ -1,0 +1,14 @@
+District,Taluka,Circle,Actual_Rainfall_11_Sep,CSA_Predicted_Rainfall_11_Sep,Absolute_Error,Squared_Error,Prediction_Difference,Model_Used
+Parbhani,Sonpeth,Sonpeth,15.0,13.7787,1.2213,1.4917,-1.2213,CSA-Optimized Random Forest
+Parbhani,Manvat,Kekarjawala,16.0,15.1133,0.8867,0.7862,-0.8867,CSA-Optimized Random Forest
+Parbhani,Parbhani,Parbhani,17.0,14.9967,2.0033,4.0133,-2.0033,CSA-Optimized Random Forest
+Parbhani,Manvat,Kolha,16.0,15.6933,0.3067,0.094,-0.3067,CSA-Optimized Random Forest
+Parbhani,Parbhani,Daithana,13.0,14.3267,1.3267,1.76,1.3267,CSA-Optimized Random Forest
+Parbhani,Selu,Moregaon,16.0,14.6533,1.3467,1.8135,-1.3467,CSA-Optimized Random Forest
+Parbhani,Pathari,Pathri,16.0,14.6987,1.3013,1.6935,-1.3013,CSA-Optimized Random Forest
+Parbhani,Gangakhed,Makhani,12.0,12.9533,0.9533,0.9088,0.9533,CSA-Optimized Random Forest
+Parbhani,Jintur,Adgaon,20.0,18.5173,1.4827,2.1983,-1.4827,CSA-Optimized Random Forest
+Parbhani,Manvat,Rampuri,16.0,14.1933,1.8067,3.264,-1.8067,CSA-Optimized Random Forest
+Parbhani,Purna,Purna,17.0,16.04,0.96,0.9216,-0.96,CSA-Optimized Random Forest
+Parbhani,Parbhani,Parabhani,14.0,16.16,2.16,4.6656,2.16,CSA-Optimized Random Forest
+Parbhani,Selu,Chikalthana,13.0,14.2547,1.2547,1.5742,1.2547,CSA-Optimized Random Forest
